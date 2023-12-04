@@ -2,7 +2,7 @@ import Row from "./Row";
 import MovieApi from "./MovieApi";
 import Banner from "./Banner";
 import Nav from "./Nav";
-import "./netflix_clone/App.css";
+import "App.css";
 
 function App() {
   return (
