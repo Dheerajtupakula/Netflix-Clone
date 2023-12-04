@@ -1,26 +1,6 @@
-body {
+* {
     margin: 0;
-    padding: 0;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
-#root {
-    display: grid;
-    place-items: center;
-}
-button {
-    font-size: 17px;
-    background-color: #f4f3f3;
-    height: 30px;
-    width: 100px;
-    border-radius: 30px;
-    border: 1px solid grey;
-}
-button:hover {
-    background-color: #ececec;
-}
-button:active {
-    background-color: #fff;
+.App {
+    background-color: #111;
 }
