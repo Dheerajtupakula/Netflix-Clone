@@ -4,7 +4,7 @@ import Banner from "./Banner";
 import Nav from "./Nav";
 import "./netflix_clone/App.css";
 
-function Netfilx() {
+function App() {
   return (
     <div className="App">
       <Nav />
@@ -43,6 +43,4 @@ function Netfilx() {
   );
 }
 
-export default Netfilx;
-
-// const imgs = "https://image.tmdb.org/t/p/w500";
+export default App;
