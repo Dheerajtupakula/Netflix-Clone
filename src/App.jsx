@@ -2,7 +2,7 @@ import Row from "./Row";
 import MovieApi from "./MovieApi";
 import Banner from "./Banner";
 import Nav from "./Nav";
-import "App.css";
+import "./App.css";
 
 function App() {
   return (
@@ -17,7 +17,7 @@ function App() {
             isLargeRow={true}
           />
         </div>
-        <div className="App-row">
+        <div className="App">
           <Row title={"Trendings"} content={MovieApi.Trending} />
         </div>
         <div className="App">
