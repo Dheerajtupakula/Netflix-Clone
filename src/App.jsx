@@ -1,7 +1,7 @@
-import Row from "./Row";
-import MovieApi from "./MovieApi";
-import Banner from "./Banner";
-import Nav from "./Nav";
+import Row from "./components/row/Row";
+import MovieApi from "./components/MovieApi";
+import Banner from "./components/banner/Banner";
+import Nav from "./components/navbar/Nav";
 import "./App.css";
 
 function App() {
